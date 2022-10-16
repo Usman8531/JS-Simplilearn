@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fade In Fade Out</title>
+    <style>
+       .container,h1,.btn{
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+padding-bottom: 50px;
+        }
+        button{
+            background-color: tomato;
+            color: white;
+            padding: 20px;
+            border: none;
+            transition: all 0.4s ;
+        }
+        button:hover{
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fade In Fade Out</h1>
+<div class="container">
+    <img id="img1" src="./images/Black Creative Lamp Bulb Logo.png" alt="img" onmouseover="btn1()"  onmouseout="btn2()"> <br>
+</div>
+<!-- <img id="img2" src="./images/Black Green Doodle Video Camera for Movie Cinema Production Logo .png" alt=""> -->
+<!-- <div class="btn">
+    <button >Fade in</button>
+<button>Fade out</button>
+</div> -->
+
+
+    <script src="./js/fadein fadeout.js"></script>
+</body>
+</html>
